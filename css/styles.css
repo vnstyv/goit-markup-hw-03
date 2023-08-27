@@ -53,11 +53,11 @@ body {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid var(e7e9fc);
 }
 .navigation {
   display: flex;
@@ -79,13 +79,14 @@ body {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-span {
   color: #2e2f42;
 }
 .navigation-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .menu-head-current-link {
@@ -94,6 +95,7 @@ body {
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .menu-head-current-link:hover {
   color: #404bbf;
@@ -107,7 +109,7 @@ body {
 }
 .mail-tel {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .mail-and-tel {
   color: #434455;
@@ -145,20 +147,27 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-top: 188px;
-  padding-bottom: 24px;
+  padding: 188 0;
 }
 .button-pad {
   padding-top: 24px;
   padding-right: 495px;
   padding-bottom: 188px;
   padding-left: 495px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .button-first {
   color: #fff;
   font-size: 16px;
   line-height: 1.5;
-  background: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -166,7 +175,6 @@ body {
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
-  border-radius: 4px;
 }
 .button:hover {
   background: #404bbf;
@@ -187,10 +195,7 @@ body {
 }
 .all-features {
   display: flex;
-  column-gap: 24px;
-}
-.feature {
-  width: calc ((100% - 72px) / 4);
+  gap: 24px;
 }
 .feature-name {
   color: #2e2f42;
@@ -199,6 +204,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  width: calc ((100% - 72px) / 4);
 }
 .feature-description {
   color: #434455;
@@ -224,11 +230,14 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
+}
+.team-member-container {
+  padding: 32px 0;
 }
 .team-member {
   background-color: #fff;
@@ -243,8 +252,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 .position {
   color: #434455;
@@ -252,8 +260,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 4px;
-  margin-bottom: 32px;
 }
 
 /* portfolio */
@@ -273,7 +279,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .projects-list {
   display: flex;
@@ -298,21 +304,19 @@ body {
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 .kind-of-project {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 4px;
 }
 
 /* footer */
 .page-footer {
   background-color: #2e2f42;
-  padding-top: 101.5px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 .fpage-footer-container {
   padding-left: 15px;
@@ -327,7 +331,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
+  display: inline-block;
 }
 .logo-span-footer {
   color: #f4f4fd;
@@ -338,5 +343,4 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 8px;
 }
