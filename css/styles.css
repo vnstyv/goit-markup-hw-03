@@ -175,7 +175,6 @@ body {
   background: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
-  height: 56px;
 }
 .button:hover {
   background: #404bbf;
@@ -197,7 +196,7 @@ body {
 .all-features-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .feature-name {
   color: #2e2f42;
