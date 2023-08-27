@@ -187,6 +187,8 @@ body {
 .all-features-list {
   display: flex;
   gap: 24px;
+}
+.feature {
   flex-basis: calc((100% - 72px) / 4);
 }
 .feature-name {
