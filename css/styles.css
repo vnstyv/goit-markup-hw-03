@@ -226,7 +226,7 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc ((100% - 72px) / 4);
+  width: calc ((100% - 72px) /4);
 }
 .team-member-container {
   padding: 32px 0;
