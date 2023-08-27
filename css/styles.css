@@ -50,13 +50,12 @@ body {
 
 /*navigation-menu*/
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
   justify-content: space-between;
+  display: flex;
 }
 .navigation {
   display: flex;
@@ -107,7 +106,7 @@ body {
   font-style: normal;
 }
 .mail-tel {
-  display: flex;
+  display: block;
   gap: 40px;
 }
 .mail-and-tel {
@@ -149,6 +148,9 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 .button {
   color: #fff;
@@ -336,4 +338,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
